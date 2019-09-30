@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+
+}
+
+header nav ul li {
+    border: 3px solid red;
+    margin:1px 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+header nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: red;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 46px;
+
+}
+
+.leader-section {
+    display: flex;
+    width: 100%;
+}
+
+.leader-section .leader-div {
+    margin: 20px auto;
+
+}
+
+.leader-section .leader-div a {
+
+}
+
+.leader-section .leader-div a img {
+    width: 400px;
+    height: 450px;
+    margin: 20px;
+    
+}
+
+footer {
+    background-color: #FFF;
+}
+
+footer .footer-container {
+    padding-bottom: 10px;
+    
+}
+
+footer p {
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+    width: 5em;
+    border: 3px solid red;
+    font-size: 48px;
+    
+
+}
+
+footer p a {
+    
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: red;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+
+/*extinguish style*/
+
+.grass-img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.farmer-talk-img {
+    position: absolute;
+    top: 300px;
+    left: 540px;
+
+}
+
+.parrot-talk-img {
+    position: absolute;
+    top: 160px;
+    left: 960px;
+
+}
+
+.fire-img {
+    position: absolute;
+    top: 494px;
+    left: 0;
+    width: 65%;
+    height: 200px;
+}
+
+.farmer-img {
+    position: absolute;
+    top: 380px;
+    left: 740px;
+
+}
+
+.parrot-img {
+    position: absolute;
+    top: 300px;
+    left: 980px;
+
+}
+
+.smoke-img1 {
+    position: absolute;
+    top: 250px;
+    left: 120px;
+}
+.smoke-img2 {
+    position: absolute;
+    top: 300px;
+    left: 140px;
+}
+.smoke-img3 {
+    position: absolute;
+    top: 400px;
+    left: 70px;
+    z-index: 0
+}
+
+.table-under-image {
+    display: block;
+    border: 1px solid #333333;
+    padding: 10px;
+}
+
+table{
+    border: 1px solid #000000;
+    padding: 7px;
+    margin: 0 300px;
+}
+
+table tr {
+
+}
+
+table tr td{
+    border: 1px solid #333;
+}
+
+.parrot-talk-p {
+    position: absolute;
+    top: 220px;
+    left: 1013px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.farmer-talk-p {
+    position: absolute;
+    top: 350px;
+    left: 590px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.farmer-talk-p {
+    animation: cssAnimation 0s 7.5s forwards, fadein 4s;
+    visibility: hidden;
+}
+
+
+@keyframes cssAnimation {
+    to   { visibility: visible;  }
+}
+
+@keyframes fadein {
+    0%   {opacity: 0;}
+    10%  {opacity: .1;}
+    20%  {opacity: .2;}
+    30%  {opacity: .3;}
+    40% {opacity: .4;}
+    50% {opacity: .5;}
+    60% {opacity: .6;}
+    70% {opacity: .7;}
+    80% {opacity: .8;}
+    90% {opacity: .9;}
+    100% {opacity: 1;}
+}
+
+.fire-img {
+    animation: cssAnimation 0s 2.5s forwards, fadein 4s;
+    visibility: hidden;
+}
+
+.smoke-img3 {
+    animation: cssAnimation 0s 3s forwards, fadein 4s;
+    visibility: hidden;
+}
+.smoke-img2 {
+    animation: cssAnimation 0s 3.3s forwards, fadein 4s;
+    visibility: hidden;
+}
+.smoke-img1 {
+    animation: cssAnimation 0s 3.8s forwards, fadein 4s;
+    visibility: hidden;
+}
+
+
+@keyframes cssAnimation {
+    to   { visibility: visible;  }
+}
